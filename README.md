@@ -40,7 +40,14 @@ Add the file to the staged zone (It is possible to add multiple files to the sta
 
 ```
 git add README.md
-git add file1 file2
+git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+git add file1 file2 file3
+
 ```
 
 Commit all files in the staged zone into the repository
